@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text-gradient {
+	background: radial-gradient(
+		64.18% 64.18% at 71.16% 35.69%,
+		#def9fa 0.89%,
+		#bef3f5 17.23%,
+		#9dedf0 42.04%,
+		#7de7eb 55.12%,
+		#5ce1e6 71.54%,
+		#33bbcf 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.bg-green-gradient {
+	background: linear-gradient(
+		157.81deg,
+		#f5f8f881 0.89%,
+		#d9f0d58a 17.23%,
+		#94dfb17e 42.04%,
+		#62db906c 55.12%,
+		#3fce767c 71.54%,
+		#33cf6f7a 100%
+	);
+}
+.bg-red-gradient {
+	background: linear-gradient(
+		157.81deg,
+		#f5f8f86c 0.89%,
+		#da8f8585 17.23%,
+		#da776a83 42.04%,
+		#d4564580 55.12%,
+		#d44f3d73 71.54%,
+		#cf453379 100%
+	);
+}
+.bg-green-gradient-hero {
+	background: linear-gradient(
+		157.81deg,
+		#94dfb150 0.89%,
+		#94dfb154 17.23%,
+		#29417a59 42.04%,
+		#29417a77 55.12%,
+		#1b316379 71.54%,
+		#12265688 100%
+	);
+}
+.bg-black-gradient {
+	background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+.bg-menu-gradient {
+	background: linear-gradient(144.39deg, #ffffff -278.56%, #101c3d -78.47%, #00040f 91.61%);
+}
+.bg-primary {
+	background: #00040f;
+}
+
+.bg-card {
+	background: rgb(18, 38, 86);
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	backdrop-filter: blur(2rem);
+}
